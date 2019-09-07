@@ -173,10 +173,4 @@ I have observed some problems with the current pipeline:
 
 # Future Improvements
 
-One further step to explore would be to calculate the weighted average of line coefficients in our MemoryLaneDetector, giving a higher weight to more recent coefficients as they belong to more recent frames; I believe frame locality would play a critical role in getting near-perfect lines on video.
-
-We should also consider expressing lines as second degree polynomials or more for examples such as the challenge video.
-
-In the future, I also plan to use deep learning to identify lanes and compare those results against what I obtained with a pure computer vision approach.
-
-All code is available on [Github](https://github.com/kenshiro-o/CarND-LaneLines-P1).
+I think that one further step to explore would be to calculate the weighted average of line coefficients in our MemoryLaneDetector, giving a higher weight to more recent coefficients as they belong to more recent frames; I believe frame locality would play a critical role in getting near-perfect lines on video.
